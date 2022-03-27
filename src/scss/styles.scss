@@ -24,3 +24,62 @@
 
 // Custom styles:
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#jumbotron {
+  background: url("../img/pirate-ship.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h3 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#center {
+  text-align: center;
+  color: #fff;
+  font-size: 75px;
+}
+
+#sub-cap {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+
+#kraken-title {
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  padding: 2px;
+  background-color: darkslategray;
+  color: #fff;
+  font-family: 'Cormorant Garamond', serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.byline {
+  font-weight: bold;
+}
+
+.credit {
+  font-style: italic;
+  font-weight: light;
+}
